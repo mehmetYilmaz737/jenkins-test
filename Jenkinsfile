@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'dind:latest' }
+        docker { image 'docker:dind' }
     }
     stages {
         stage('Test') {
